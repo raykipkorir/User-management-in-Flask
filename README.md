@@ -7,7 +7,7 @@ Frontend - Bootstrap, HTML
 # SETUP
 * In your working directory clone the repository:
 ```
-git clone https://github.com/raykipkorir/User-management-in-Flask
+git clone https://github.com/raykipkorir/User-management-in-Flask.git
 ```
 * Navigate into the repository 
 ```
