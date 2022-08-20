@@ -1,0 +1,13 @@
+{% with messages = get_flashed_messages(with_categories=True) %}
+    {% if messages %}
+        {% for caterogy,message in messages %}
+        <div class="alert alert-{{caterogy}}">
+            {{ message }}
+            <!-- <button type="button" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times; </span>
+            </button>  -->
+            
+        </div>
+        {% endfor %}
+    {% endif %}       
+{% endwith %}
